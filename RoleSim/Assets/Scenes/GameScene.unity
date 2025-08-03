@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 376045251}
   - component: {fileID: 376045250}
   - component: {fileID: 376045253}
+  - component: {fileID: 376045254}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -388,6 +389,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverScaleFactor: 1.2
   hoverScaleSpeed: 2
+--- !u!114 &376045254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376045248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cb653e7a1f3e149a0531169fef52b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destinationScene: ItemScene
 --- !u!1 &428152585
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +415,7 @@ GameObject:
   - component: {fileID: 428152588}
   - component: {fileID: 428152587}
   - component: {fileID: 428152590}
+  - component: {fileID: 428152591}
   m_Layer: 0
   m_Name: Paper
   m_TagString: Untagged
@@ -561,6 +576,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverScaleFactor: 1.5
   hoverScaleSpeed: 2
+--- !u!114 &428152591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428152585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cb653e7a1f3e149a0531169fef52b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destinationScene: PaperScene
 --- !u!1 &542367558
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,6 +602,7 @@ GameObject:
   - component: {fileID: 542367561}
   - component: {fileID: 542367560}
   - component: {fileID: 542367563}
+  - component: {fileID: 542367564}
   m_Layer: 0
   m_Name: Computer
   m_TagString: Untagged
@@ -734,6 +763,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverScaleFactor: 1.2
   hoverScaleSpeed: 2
+--- !u!114 &542367564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542367558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6cb653e7a1f3e149a0531169fef52b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destinationScene: PuzzleScene
 --- !u!1 &878341973
 GameObject:
   m_ObjectHideFlags: 0
